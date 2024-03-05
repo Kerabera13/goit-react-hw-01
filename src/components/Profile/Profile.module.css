@@ -1,0 +1,42 @@
+.profile {
+    border: 1px solid #171616;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgb(243, 233, 233);
+    box-shadow: 0 0 10px rgba(51, 50, 50, 0.1);
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 85, 88);
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.stats li {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 32px;
+}
+
+
